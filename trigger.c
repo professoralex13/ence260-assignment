@@ -1,13 +1,6 @@
-#include <stdbool.h>
+#include "trigger.h"
 #include <stdio.h>
 #include <stdlib.h>
-
-#define MAX_TRIGGERS 100
-
-typedef struct {
-    bool state;
-    char label;
-} Trigger;
 
 static Trigger *allTriggers[MAX_TRIGGERS];
 

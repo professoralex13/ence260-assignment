@@ -6,3 +6,4 @@ BreakBeforeBraces: Custom
 BraceWrapping:
   AfterControlStatement: false
   AfterFunction: true
+IndentCaseLabels: true

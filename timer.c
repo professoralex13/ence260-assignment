@@ -1,7 +1,5 @@
-#include <stdint.h>
+#include "timer.h"
 #include <stdlib.h>
-
-#define MAX_TIMERS 100
 
 static uint32_t *allTimers[MAX_TIMERS];
 
